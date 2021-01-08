@@ -8,13 +8,13 @@ public class StringEx {
 		
 		//문제 실행해보기 전 예상되는 출력 값을 아래와 같이 주석으로 달아보세요.
 		System.out.println("이름 : "+name); // 홍길동
-		System.out.println("이름과 키 :"+ nameAndHeight);
-		System.out.println(100 + " ");
-		System.out.println(" " + 100);
-		System.out.println(100 + "");
-		System.out.println("" + 100);
-		System.out.println("" + "");
-		System.out.println(100 + 100 + "");
-		System.out.println("" + 100 + 100);
+		System.out.println("이름과 키 :"+ nameAndHeight); // 이름과 키 : 홍길동180.6
+		System.out.println(100 + " "); // 100
+		System.out.println(" " + 100); //  100(문자?)
+		System.out.println(100 + ""); // 100
+		System.out.println("" + 100); // 100(문자?)
+		System.out.println("" + ""); //
+		System.out.println(100 + 100 + ""); // 200
+		System.out.println("" + 100 + 100); // 100100(문자?)
 	}
 }
