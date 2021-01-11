@@ -19,7 +19,11 @@ public class VarEx1 {
 		int year = 0; // int 타입의 year 라는 이름의 변수를 0으로 초기화 하는 것으로 변수를 사용하기 전에 처음으로 값을 저장 하는것.
 		int age = 14;
 		
-		System.out.println(year);
+		
+		System.out.println(year); 
 		System.out.println(age);
+		
+		
+		
 	}
 }

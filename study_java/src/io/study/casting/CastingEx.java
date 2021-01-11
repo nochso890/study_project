@@ -7,7 +7,7 @@ package io.study.casting;
  * 변수 또는 리터럴의 타입을 다른 타입으로 변환하는 과정을 형변환(casting)이라고 한다.
  */
 public class CastingEx {
-
+	
 	public static void main(String[] args) {
 		double d = 128.4;
 		int score = (int)d;
@@ -16,5 +16,8 @@ public class CastingEx {
 		System.out.println("score : "+ score);
 		System.out.println("double : "+ d);
 		System.out.println("byte : "+ b);
+		
 	}
+	
+
 }
